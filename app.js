@@ -11,7 +11,7 @@ function darkmode(){
         darkBtn.className ="fa-solid fa-sun";
         body.style.backgroundColor ='black'
         Array.from(body.children).forEach(item =>{
-            // item.style.color ='white'
+            item.style.color ='white'
         })
 
                
@@ -20,7 +20,7 @@ function darkmode(){
     }
     else{
          darkBtn.className ="fa-solid fa-moon";
-        body.style.backgroundColor ="white"
+        body.style.backgroundColor ="#0f172a"
     }
 }
 
